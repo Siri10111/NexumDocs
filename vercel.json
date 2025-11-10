@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/api/maintenance", "dest": "/api/maintenance" },
+    { "src": "/(.*)", "dest": "/api/maintenance" }
+  ]
+}
